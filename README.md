@@ -1,5 +1,3 @@
-# ⚡️SvelteKit-Portfolio⚡️
-
 ## A personal portfolio website made using `@sveltejs/kit`.
 
 To view a demo example, **[click here](https://fazrilramadhan.cloud)**
@@ -50,12 +48,6 @@ $ npm install
 $ npm run dev
 ```
 
-# Deploy on Netlify 🚀
-
-Deploying your website on Netlify it's optional but I reccomand it in order to deploy it faster and easly.
-
-You just need to fork this repo and linking it to your Netlify account.
-
 ## Authors ❤️
 
-- Gianmarco - https://github.com/fazrilrama
+- Fazril Ramadhan - https://github.com/fazrilrama
