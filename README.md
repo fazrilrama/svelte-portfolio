@@ -2,20 +2,14 @@
 
 ## A personal portfolio website made using `@sveltejs/kit`.
 
-<p align="left">
-    <img width="500" height="auto" src="https://i.imgur.com/IafmSKu.png" alt="homepagescreenshot" />
-</p>
-
-To view a demo example, **[click here](https://gianmarco.netlify.app/)**
+To view a demo example, **[click here](https://fazrilramadhan.cloud)**
 
 ## Features
 
 - Modern and Minimal UI Design
 - Home, Projects, About and blog sections
-- Blog made using `DEV.TO` API. (Medium WIP)
 - Fully Responsive
 - Performances and SEO optimizations
-- Ready to be deployed on [Netlify](https://www.netlify.com/)
 
 ## Guide
 
@@ -38,12 +32,12 @@ In `src\lib\NavRoutes.js` you need to add in the `routes` an object with the fol
 
 ```
 # Clone this repository
-$ git clone https://github.com/Ladvace/SvelteKit-Portfolio
+$ git clone https://github.com/fazrilrama/svelte-portfolio
 ```
 
 ```
 # Go into the repository
-$ cd SvelteKit-Portfolio
+$ cd svelte-portfolio
 ```
 
 ```
@@ -64,4 +58,4 @@ You just need to fork this repo and linking it to your Netlify account.
 
 ## Authors ❤️
 
-- Gianmarco - https://github.com/Ladvace
+- Gianmarco - https://github.com/fazrilrama
