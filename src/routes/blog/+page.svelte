@@ -10,7 +10,7 @@
 </script>
 
 <svelte:head>
-	<title>Gianmarco Cavallo — Blog</title>
+	<title>Fazril Ramadhan — Blog</title>
 </svelte:head>
 
 <div class="articlesContainer">
