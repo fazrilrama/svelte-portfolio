@@ -7,7 +7,7 @@ const css = {
 };
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
-  return `${$$result.head += `<!-- HEAD_svelte-1fz6uzk_START -->${$$result.title = `<title>Gianmarco Cavallo - Privacy policy</title>`, ""}<!-- HEAD_svelte-1fz6uzk_END -->`, ""} <div class="container svelte-m0vbxx"><main class="svelte-m0vbxx"><h1 class="svelte-m0vbxx" data-svelte-h="svelte-5wspm6">Privacy Policy</h1> <p data-svelte-h="svelte-cr6qh9">Last updated: November 01, 2021</p> <p data-svelte-h="svelte-bguhgz">This Privacy Policy describes Our policies and procedures on the collection, use and
+  return `${$$result.head += `<!-- HEAD_svelte-7q35u7_START -->${$$result.title = `<title>Fazril Ramadhan - Privacy policy</title>`, ""}<!-- HEAD_svelte-7q35u7_END -->`, ""} <div class="container svelte-m0vbxx"><main class="svelte-m0vbxx"><h1 class="svelte-m0vbxx" data-svelte-h="svelte-5wspm6">Privacy Policy</h1> <p data-svelte-h="svelte-cr6qh9">Last updated: November 01, 2021</p> <p data-svelte-h="svelte-bguhgz">This Privacy Policy describes Our policies and procedures on the collection, use and
 			disclosure of Your information when You use the Service and tells You about Your privacy
 			rights and how the law protects You.</p> <p data-svelte-h="svelte-rkdxqa">We use Your Personal data to provide and improve the Service. By using the Service, You agree
 			to the collection and use of information in accordance with this Privacy Policy. This Privacy

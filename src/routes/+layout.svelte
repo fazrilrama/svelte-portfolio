@@ -121,7 +121,7 @@
 <slot />
 
 <footer>
-	Created by <a class="me" href="/about">Fazril Dev</a> ❤️ with
+	Created by <a class="me" href="/about">Fazril Dev</a>with
 	<span class="svelte">Svelte</span>
 </footer>
 

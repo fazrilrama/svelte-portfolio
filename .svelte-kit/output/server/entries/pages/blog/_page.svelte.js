@@ -13,7 +13,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   if ($$props.data === void 0 && $$bindings.data && data !== void 0)
     $$bindings.data(data);
   $$result.css.add(css);
-  return `${$$result.head += `<!-- HEAD_svelte-j2vyn7_START -->${$$result.title = `<title>Gianmarco Cavallo — Blog</title>`, ""}<!-- HEAD_svelte-j2vyn7_END -->`, ""} <div class="articlesContainer svelte-1fxyu1w"><div class="articles svelte-1fxyu1w"><h1 class="svelte-1fxyu1w" data-svelte-h="svelte-a2vclf">Articles</h1> ${each(filteredArticles, (article) => {
+  return `${$$result.head += `<!-- HEAD_svelte-11izwjw_START -->${$$result.title = `<title>Fazril Ramadhan — Blog</title>`, ""}<!-- HEAD_svelte-11izwjw_END -->`, ""} <div class="articlesContainer svelte-1fxyu1w"><div class="articles svelte-1fxyu1w"><h1 class="svelte-1fxyu1w" data-svelte-h="svelte-a2vclf">Articles</h1> ${each(filteredArticles, (article) => {
     return `<div class="article svelte-1fxyu1w"><div class="header"><h2 class="svelte-1fxyu1w">${escape(article.title)}</h2> <div>Tags: ${escape(article.tags || article.category)}</div></div> <p class="svelte-1fxyu1w">${escape(article.description || "")}</p> <a${add_attribute("href", article.id ? `/blog/${article.id}` : article.link, 0)}${add_attribute("target", !article.id ? "_blank" : "_self", 0)} class="svelte-1fxyu1w"><div class="button svelte-1fxyu1w" data-svelte-h="svelte-kf16rq">Read Article =&gt;</div></a> </div>`;
   })} ${filteredArticles.length === 0 ? `<div data-svelte-h="svelte-ink7a0">No Articles</div>` : ``}</div> </div>`;
 });

@@ -161,7 +161,7 @@ const Layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
         }
       })}</div>`;
     }
-  })} ${validate_component(NavBar, "Navbar").$$render($$result, { segment: $page.url.pathname }, {}, {})} ${slots.default ? slots.default({}) : ``} <footer class="svelte-hbd2su" data-svelte-h="svelte-13vpfrr">Created by <a class="me svelte-hbd2su" href="/about">Fazril Dev</a> ❤️ with
+  })} ${validate_component(NavBar, "Navbar").$$render($$result, { segment: $page.url.pathname }, {}, {})} ${slots.default ? slots.default({}) : ``} <footer class="svelte-hbd2su" data-svelte-h="svelte-1x8o7oy">Created by <a class="me svelte-hbd2su" href="/about">Fazril Dev</a>with
 	<span class="svelte svelte-hbd2su">Svelte</span> </footer>`;
 });
 export {

@@ -5,7 +5,7 @@ To view a demo example, **[click here](https://fazrilramadhan.cloud)**
 ## Features
 
 - Modern and Minimal UI Design
-- Home, Projects, About and blog sections
+- Home, And About 
 - Fully Responsive
 - Performances and SEO optimizations
 
@@ -48,6 +48,5 @@ $ npm install
 $ npm run dev
 ```
 
-## Authors ❤️
-
+## Authors
 - Fazril Ramadhan - https://github.com/fazrilrama

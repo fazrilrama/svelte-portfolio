@@ -14,7 +14,7 @@ const css = {
 };
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
-  return `${$$result.head += `<!-- HEAD_svelte-1e2c270_START -->${$$result.title = `<title>Gianmarco Cavallo — About</title>`, ""}<!-- HEAD_svelte-1e2c270_END -->`, ""} <div class="container svelte-1x4k9zh"><main class="svelte-1x4k9zh"><h1 class="svelte-1x4k9zh" data-svelte-h="svelte-soqi9t">About</h1> <p data-svelte-h="svelte-xfz0hl">I&#39;m a Software developer with over 2 years of Full Stack developer experience, experienced in
+  return `${$$result.head += `<!-- HEAD_svelte-1k8shsz_START -->${$$result.title = `<title>Fazril Ramadhan — About</title>`, ""}<!-- HEAD_svelte-1k8shsz_END -->`, ""} <div class="container svelte-1x4k9zh"><main class="svelte-1x4k9zh"><h1 class="svelte-1x4k9zh" data-svelte-h="svelte-soqi9t">About</h1> <p data-svelte-h="svelte-xfz0hl">I&#39;m a Software developer with over 2 years of Full Stack developer experience, experienced in
 			both enterprise and open-source software development. I&#39;m based in Jakarta and currently working as a Full Stack Developer and coding in Node.js, Vue.js or Nuxt JS (and other web technologies), with the experience and learning that I have gone through, I hope we can collaborate and make the best contribution to your company.</p> <h2 class="svelte-1x4k9zh" data-svelte-h="svelte-1w8bmy8">Skills</h2> ${each(Object.entries(skills), ([section, technologies]) => {
     return `<ul><li><h4>${escape(section)}:</h4> <div class="list svelte-1x4k9zh">${each(technologies, (technology) => {
       return `<div>${escape(technology)} </div>`;

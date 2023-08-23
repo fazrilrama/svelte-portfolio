@@ -26,7 +26,7 @@ const css = {
 };
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
-  return `${$$result.head += `<!-- HEAD_svelte-12ozewt_START -->${$$result.title = `<title>Gianmarco Cavallo — Projects</title>`, ""}<!-- HEAD_svelte-12ozewt_END -->`, ""} <div class="projectContainer svelte-dtt2x3"><div class="projects svelte-dtt2x3"><h1 class="svelte-dtt2x3" data-svelte-h="svelte-136d6se">Projects</h1> <p class="note svelte-dtt2x3" data-svelte-h="svelte-g1lemg">Note: most of my projects are under NDA so I am unable to share those projects. If there is
+  return `${$$result.head += `<!-- HEAD_svelte-17oavdm_START -->${$$result.title = `<title>Fazril Ramadhan — Projects</title>`, ""}<!-- HEAD_svelte-17oavdm_END -->`, ""} <div class="projectContainer svelte-dtt2x3"><div class="projects svelte-dtt2x3"><h1 class="svelte-dtt2x3" data-svelte-h="svelte-136d6se">Projects</h1> <p class="note svelte-dtt2x3" data-svelte-h="svelte-g1lemg">Note: most of my projects are under NDA so I am unable to share those projects. If there is
 			anything you would like to see further, please feel free to contact me.</p> ${each(projects, (project) => {
     return `<div class="project svelte-dtt2x3"><div class="header"><h2 class="svelte-dtt2x3">${escape(project.title)}</h2> <div class="techsContainer svelte-dtt2x3">Technologies:
 						<div class="techs svelte-dtt2x3">${each(project.technologies, (tech) => {
