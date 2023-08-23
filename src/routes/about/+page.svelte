@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Gianmarco Cavallo — About</title>
+	<title>Fazril Ramadhan — About</title>
 </svelte:head>
 
 <div class="container">
