@@ -17,7 +17,7 @@ const Hamburger = create_ssr_component(($$result, $$props, $$bindings, slots) =>
     open ? "open" : ""
   ].join(" ").trim()}" data-svelte-h="svelte-1x3lald"><svg width="32" height="24" class="svelte-15fktif"><line id="top" x1="0" y1="2" x2="32" y2="2" class="svelte-15fktif"></line><line id="middle" x1="0" y1="12" x2="32" y2="12" class="svelte-15fktif"></line><line id="bottom" x1="0" y1="22" x2="32" y2="22" class="svelte-15fktif"></line></svg> </button>`;
 });
-const Logo = "/_app/immutable/assets/logo.a5ecb664.svg";
+const Logo = "/_app/immutable/assets/logo.148f1c53.svg";
 const routes = [
   {
     href: "/",

@@ -1,8 +1,8 @@
 import { c as create_ssr_component, b as each, e as escape } from "../../../chunks/ssr.js";
 const skills = {
-  programming: ["Laravel", "Codeigniter", "PHP", "Node.js", "TypeScript", "React.js", "Vue.js", "Nuxt.js", "Go(Lang)"],
+  programming: ["PHP", "Node.js", "TypeScript", "React.js", "Vue.js", "Nuxt.js", "Go(Lang)", "Nest.Js", "Flutter", "Laravel", "Codeigniter"],
   // devops: [],
-  databases: ["Mysql", "MongoDB", "Sql Server"],
+  databases: ["Mysql", "MongoDB", "Sql Server", "Posgresql"],
   // tools: [],
   languages: ["English"],
   other: ["Docker", "IT Infrastructure", "Web Server (Apache/Nginx)"]

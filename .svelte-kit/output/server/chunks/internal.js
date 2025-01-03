@@ -104,7 +104,7 @@ const options = {
   root: Root,
   service_worker: false,
   templates: {
-    app: ({ head, body, assets: assets2, nonce, env }) => '<!DOCTYPE html>\n<html lang="en">\n\n<head>\n	<meta charset="utf-8" />\n	<link rel="icon" href="' + assets2 + '/logo.svg" />\n	<link rel="preconnect" href="https://fonts.gstatic.com" />\n	<meta name="viewport" content="width=device-width, initial-scale=1" />\n\n	<title>Fazril Ramadhan — IT Programmer | Software Developer.</title>\n	<meta name="title" content="Gianmarco Cavallo — Front-End Developer" />\n	<meta name="description" content="Front-End Developer, based in italy" />\n\n	' + head + '\n</head>\n\n<body>\n	<div id="svelte">' + body + "</div>\n</body>\n\n</html>",
+    app: ({ head, body, assets: assets2, nonce, env }) => '<!DOCTYPE html>\r\n<html lang="en">\r\n\r\n<head>\r\n	<meta charset="utf-8" />\r\n	<link rel="icon" href="' + assets2 + '/logo.svg" />\r\n	<link rel="preconnect" href="https://fonts.gstatic.com" />\r\n	<meta name="viewport" content="width=device-width, initial-scale=1" />\r\n\r\n	<title>Fazril Ramadhan — IT Programmer | Software Developer.</title>\r\n	<meta name="title" content="Gianmarco Cavallo — Front-End Developer" />\r\n	<meta name="description" content="Front-End Developer, based in italy" />\r\n\r\n	' + head + '\r\n</head>\r\n\r\n<body>\r\n	<div id="svelte">' + body + "</div>\r\n</body>\r\n\r\n</html>",
     error: ({ status, message }) => '<!DOCTYPE html>\n<html lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<title>' + message + `</title>
 
 		<style>
@@ -166,7 +166,7 @@ const options = {
 		<div class="error">
 			<span class="status">` + status + '</span>\n			<div class="message">\n				<h1>' + message + "</h1>\n			</div>\n		</div>\n	</body>\n</html>\n"
   },
-  version_hash: "zmaeca"
+  version_hash: "tig4r8"
 };
 function get_hooks() {
   return {};
