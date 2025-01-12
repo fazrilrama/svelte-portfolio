@@ -10,7 +10,7 @@
 	<title>Fazril Ramadhan - IT Programmer</title>
 </svelte:head>
 <main>
-	<h1>Hi Folk's!✋ <br /> I'm Fazril Ramadhan a <br>Full Stack Developer 💻</h1>
+	<h1>Hi Folk's!✋ <br /> I'm Fazril Ramadhan a <br>Full Stack Engineer 💻</h1>
 	<div class="icons">
 		<div
 			role="button"

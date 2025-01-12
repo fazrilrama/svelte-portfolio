@@ -1,6 +1,6 @@
 const skills = {
-	programming: ['PHP', 'Node.js', 'TypeScript', 'React.js', 'Vue.js', 'Nuxt.js', 'Go(Lang)', 'Nest.Js', 'Flutter', 'Laravel', 'Codeigniter'],
-	// devops: [],
+	programming: ['Javascript', 'PHP', 'TypeScript', 'Go', 'Flutter'],
+	frameworks: ['Node.js', 'Express.js', 'React.js', 'Vue.js', 'Nuxt.js', 'Next.js', 'Nest.Js', 'Laravel', 'Codeigniter', 'Lumen'],
 	databases: ['Mysql', 'MongoDB', 'Sql Server', 'Posgresql'],
 	// tools: [],
 	languages: ['English'],

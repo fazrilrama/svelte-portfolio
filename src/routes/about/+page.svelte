@@ -1,5 +1,6 @@
 <script>
 	import skills from '$lib/Skills';
+	import experience from '$lib/Experience';
 </script>
 
 <svelte:head>
@@ -10,8 +11,16 @@
 	<main>
 		<h1>About</h1>
 		<p>
-			I'm a Software developer with over 2 years of Full Stack developer experience, experienced in
-			both enterprise and open-source software development. I'm based in Jakarta and currently working as a Full Stack Developer and coding in Node.js, Vue.js or Nuxt JS (and other web technologies), with the experience and learning that I have gone through, I hope we can collaborate and make the best contribution to your company.
+			<strong>Professional Summary</strong> <br/>
+			Results-driven Backend Engineer with a proven track record in the information technology and services industry. Proficient in a diverse range of technologies, including JavaScript (Node.js, Vue.js, Nuxt.js, React.js, Svelte.js), PHP (Laravel, CodeIgniter, Lumen, Magento), Flutter, and Go, with expertise in problem-solving and data structures. Adept at designing and implementing scalable solutions that drive business success.
+		</p>
+		<p>
+			<strong>Unique Value Proposition</strong> <br/>
+			With a strong foundation in technology and a deep interest in business strategy, I leverage my technical expertise to deliver impactful solutions that align with organizational goals. My experience enables me to bridge the gap between engineering and business, fostering innovation and growth.
+		</p>
+		<p>
+			<strong>Career Vision</strong> <br/>
+			I am passionate about using technology to solve complex challenges and contribute to the growth of forward-thinking companies. Always eager to learn, adapt, and innovate in dynamic environments.
 		</p>
 		<h2>Skills</h2>
 		{#each Object.entries(skills) as [section, technologies]}
@@ -26,6 +35,20 @@
 								{technology}
 							</div>
 						{/each}
+					</div>
+				</li>
+			</ul>
+		{/each}
+		<h2>Experience</h2>
+		{#each Object.entries(experience) as [section, exp]}
+			<ul>
+				<li>
+					<h4>
+						{section}:
+					</h4>
+					<div class="list">
+						Company: {exp.company} * {exp.type} <br>
+						Role: {exp.role}<br>
 					</div>
 				</li>
 			</ul>
