@@ -45,7 +45,7 @@
 		{ icon: '⚡', text: 'Fast Development', delay: 0 },
 		{ icon: '🚀', text: 'Scalable Solutions', delay: 100 },
 		{ icon: '🎯', text: 'Quality Focused', delay: 200 },
-		{ icon: '🤖', text: 'Automation Expert', delay: 300 }
+		{ icon: '🤖', text: 'Automation Testing', delay: 300 }
 	];
 
 	const socialLinks = [

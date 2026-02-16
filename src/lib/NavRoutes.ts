@@ -10,6 +10,10 @@ const routes = [
 	{
 		href: '/articles',
 		label: 'Articles'
+	},
+	{
+		href: '/playground',
+		label: 'Playground'
 	}
 ];
 

@@ -9,13 +9,6 @@
 	"/articles/[slug]": [
 		"src/routes/articles/[slug]/+page.server.ts"
 	],
-	"/blog": [
-		"src/routes/blog/+page.ts"
-	],
-	"/blog/[slug]": [
-		"src/routes/blog/[slug]/+page.ts"
-	],
-	"/privacy-policy": [],
-	"/projects": [],
-	"/provacy-policy": []
+	"/playground": [],
+	"/privacy-policy": []
 }

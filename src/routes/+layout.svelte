@@ -121,7 +121,7 @@
 <slot />
 
 <footer>
-	Created by <a class="me" href="https://github.com/fazrilrama" target="_blank">Fazril Ramadhan </a>
+	Created by <a class="me" href="https://github.com/fazrilrama" target="_blank">Fazril Ramadhan </a> With <a class="me" href="https://svelte.dev/" target="_blank">Svelte </a> & <a class="me" href="https://supabase.com/" target="_blank">Supabase </a>
 </footer>
 
 <style>
