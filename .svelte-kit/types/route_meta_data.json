@@ -3,6 +3,12 @@
 		"src/routes/+page.ts"
 	],
 	"/about": [],
+	"/articles": [
+		"src/routes/articles/+page.server.ts"
+	],
+	"/articles/[slug]": [
+		"src/routes/articles/[slug]/+page.server.ts"
+	],
 	"/blog": [
 		"src/routes/blog/+page.ts"
 	],

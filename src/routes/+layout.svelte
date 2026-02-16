@@ -121,7 +121,7 @@
 <slot />
 
 <footer>
-	Created by <a class="me" href="/about">Fazril </a>with
+	Created by <a class="me" href="https://github.com/fazrilrama" target="_blank">Fazril Ramadhan </a>
 </footer>
 
 <style>

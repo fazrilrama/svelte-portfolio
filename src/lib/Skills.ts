@@ -1,10 +1,49 @@
-const skills = {
-	programming: ['Javascript', 'PHP', 'TypeScript', 'Go', 'Flutter'],
-	frameworks: ['Node.js', 'Express.js', 'React.js', 'Vue.js', 'Nuxt.js', 'Next.js', 'Nest.Js', 'Laravel', 'Codeigniter', 'Lumen'],
-	databases: ['Mysql', 'MongoDB', 'Sql Server', 'Posgresql'],
-	// tools: [],
-	languages: ['English'],
-	other: ['Docker', 'IT Infrastructure', 'Web Server (Apache/Nginx)']
-};
+// $lib/Skills.js
+// Updated skills dengan automation testing
 
-export default skills;
+export default {
+	programming: [
+		'JavaScript',
+		'TypeScript',
+		'Go',
+		'PHP',
+		'Flutter',
+		'Python'
+	],
+	frameworks: [
+		'Node.js',
+		'Express.js',
+		'React.js',
+		'Vue.js',
+		'Nuxt.js',
+		'Next.js',
+		'Nest.js',
+		'Svelte.js',
+		'Laravel',
+		'CodeIgniter',
+		'Lumen'
+	],
+	databases: [
+		'MySQL',
+		'PostgreSQL',
+		'Supabase',
+		'Firebase',
+		'MongoDB',
+		'SQL Server'
+	],
+	testing: [
+		'Selenium',
+		'Pytest',
+		'Jest',
+		'Mocha',
+		'Cypress'
+	],
+	other: [
+		'Docker',
+		'IT Infrastructure',
+		'Web Server (Apache/Nginx)',
+		'Git',
+		'CI/CD',
+		'Automation Testing'
+	]
+};

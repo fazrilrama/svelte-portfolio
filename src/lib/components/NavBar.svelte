@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Burger from './Hamburger.svelte';
-	import Logo from '$lib/assets/logo.svg';
+	import Logo from '$lib/assets/fazril-ramadhan-putih.png';
 	import routes from '$lib/NavRoutes';
 	let opened = false;
 	export let segment: string;
@@ -33,9 +33,10 @@
 
 <style>
 	:global(.logo) {
+		height: auto;
+		width: auto;
+		max-height: 60px; /* optional */
 		cursor: pointer;
-		height: 30px;
-		width: 30px;
 	}
 
 	.open {
