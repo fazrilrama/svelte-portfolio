@@ -28,6 +28,7 @@
 declare module '$env/static/private' {
 	export const VITE_SUPABASE_URL: string;
 	export const VITE_SUPABASE_ANON_KEY: string;
+	export const VITE_GITHUB_TOKEN: string;
 	export const NVM_INC: string;
 	export const TERM_PROGRAM: string;
 	export const NODE: string;
@@ -126,6 +127,7 @@ declare module '$env/dynamic/private' {
 	export const env: {
 		VITE_SUPABASE_URL: string;
 		VITE_SUPABASE_ANON_KEY: string;
+		VITE_GITHUB_TOKEN: string;
 		NVM_INC: string;
 		TERM_PROGRAM: string;
 		NODE: string;
